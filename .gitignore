@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Output folders
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Electron
+out/
+
+# Optional editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
