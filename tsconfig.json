@@ -7,15 +7,8 @@
     "skipLibCheck": true,                     
     "forceConsistentCasingInFileNames": true, 
     "outDir": "dist",                         
-    "rootDir": "src",                         
-    "baseUrl": "./src",                       
-    "paths": {                               
-      "@models/*": ["models/*"],
-      "@utils/*": ["utils/*"],
-      "@services/*": ["services/*"]
-    }
+    "rootDir": "src"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist", "coverage", "**/*.test.ts"]
 }
-
